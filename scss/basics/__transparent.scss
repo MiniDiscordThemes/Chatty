@@ -1,7 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono");
-@import url("https://jatin-jindal.github.io/discordfont/DiscordFont.css");
-
-
 #app-mount {
     background-image: var(--chattyBackgroundImage) !important;
     background-size: cover;
@@ -43,7 +39,7 @@
                         }
                         .circleIconButton-jET_ig {
                             border-radius: var(--chattyBorderRadius);
-                            background: rgba(0,0,0,0.4);
+                            background: rgba(0, 0, 0, 0.4);
                         }
                         .folderIconWrapper-226oVY {
                             border-radius: var(--chattyBorderRadius);
@@ -56,7 +52,7 @@
                 }
                 .wrapper-21YSNc {
                     .expandedFolderBackground-2sPsd- {
-                        background: rgba(0,0,0,0.4);
+                        background: rgba(0, 0, 0, 0.4);
                         border-radius: var(--chattyBorderRadius);
                         padding-top: 48px;
                         margin-bottom: 17px;
@@ -65,7 +61,7 @@
             }
         }
         .sidebar-1tnWFu {
-            background: rgba(0,0,0,0.4);
+            background: rgba(0, 0, 0, 0.4);
             border-radius: var(--chattyBorderRadius);
             margin-top: 5px !important;
             margin-bottom: var(--chattyPadding);
@@ -80,8 +76,8 @@
                 .searchBar-3TnChZ {
                     box-shadow: none;
                     .searchBarComponent-3N7dCG {
-                        text-align: center ;
-                        background: rgba(0,0,0,0.4);
+                        text-align: center;
+                        background: rgba(0, 0, 0, 0.4);
                         color: #888;
                     }
                 }
@@ -94,32 +90,32 @@
             }
         }
         .container-2cd8Mz {
-            background: rgba(0,0,0,0.6);
+            background: rgba(0, 0, 0, 0.6);
             margin: var(--chattyPadding);
             margin-top: 5px !important;
             border-radius: var(--chattyBorderRadius);
             .container-ZMc96U.themed-Hp1KC_ {
-                background: rgba(0,0,0,0.4);
+                background: rgba(0, 0, 0, 0.4);
                 .children-19S4PO::after {
-                        display: none !important;
+                    display: none !important;
                 }
             }
             .actionButton-3-B2x- {
                 border-radius: var(--chattyBorderRadius);
-                background: rgba(0,0,0,0.4);
+                background: rgba(0, 0, 0, 0.4);
             }
             .nowPlayingColumn-1eCBCN {
                 background: transparent;
                 .consentCard-1MV_A4 {
-                    background: rgba(0,0,0,0.4);
+                    background: rgba(0, 0, 0, 0.4);
                 }
                 .itemCard-3Etziu {
-                    background: rgba(0,0,0,0.4);
+                    background: rgba(0, 0, 0, 0.4);
                 }
             }
         }
         .chat-2ZfjoI {
-            background: rgba(0,0,0,0.5);
+            background: rgba(0, 0, 0, 0.5);
             margin: var(--chattyPadding);
             margin-top: 5px !important;
             border-radius: var(--chattyBorderRadius);
@@ -129,7 +125,7 @@
                     opacity: 0;
                 }
                 .searchBar-zdmu7v {
-                    background: rgba(0,0,0,0.4);
+                    background: rgba(0, 0, 0, 0.4);
                 }
             }
             .content-1jQy2l:before {
@@ -141,11 +137,11 @@
                     width: 0px;
                 }
                 blockquote {
-                    background: rgba(0,0,0,0.4);
+                    background: rgba(0, 0, 0, 0.4);
                     border-radius: var(--chattyBorderRadius);
                     padding: 8px;
                 }
-                .imageWrapper-oMkQl4{
+                .imageWrapper-oMkQl4 {
                     border-radius: var(--chattyBorderRadius);
                     box-shadow: var(--elevationHigh);
                     transition: 0.2s ease-in-out;
@@ -158,7 +154,7 @@
                     box-shadow: var(--elevationHigh);
                 }
                 .embedFull-1HGV2S {
-                    background: rgba(0,0,0,0.4);
+                    background: rgba(0, 0, 0, 0.4);
                     border-left: 0px;
                     border-bottom: var(--chattyBorderRadius) solid;
                     border-radius: var(--chattyBorderRadius);
@@ -173,7 +169,7 @@
                 opacity: 0;
             }
             .channelTextArea-1FufC0 {
-                background: rgba(0,0,0,0.4);
+                background: rgba(0, 0, 0, 0.4);
                 border-radius: var(--chattyBorderRadius);
                 .scrollableContainer-15eg7h {
                     background: transparent !important;
@@ -186,7 +182,8 @@
                 }
             }
         }
-        .noChannel-Z1DQK7 { // maybe = noChannel-1GDIAZ 
+        .noChannel-Z1DQK7 {
+            // maybe = noChannel-1GDIAZ
             background: transparent;
             border-radius: var(--chattyBorderRadius);
             margin: var(--chattyPadding);
@@ -195,7 +192,7 @@
                 display: none;
             }
             .flexChild-3PzYmX {
-                background: rgba(0,0,0,0.4);
+                background: rgba(0, 0, 0, 0.4);
                 padding: 20px;
                 border-radius: var(--chattyBorderRadius);
                 .title-2CL_z0 {
@@ -214,30 +211,24 @@
     }
 }
 *::-webkit-scrollbar-thumb {
-    background: rgba(0,0,0,0.6) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
     border-radius: var(--chattyBorderRadius) !important;
 }
 *::-webkit-scrollbar-track-piece {
-    background: transparent!important;
+    background: transparent !important;
     border: transparent !important;
 }
 code {
-    background: rgba(0,0,0,0.6) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
     border: none !important;
     border-radius: var(--chattyBorderRadius) !important;
 }
 
-
-
-
 // Things added by Light#0853
-
-
-
 
 // RTC Connection Status Card
 .theme-dark .container-1ILvLB section {
-    background-color :rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 .theme-dark .container-1ILvLB .header-2C89wJ {
     background-color: rgba(0, 0, 0, 0);
@@ -255,7 +246,7 @@ code {
 
 .theme-dark .footer-31IekZ {
     background-color: #00000000;
-    box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+    box-shadow: inset 0 1px 0 rgba(47, 49, 54, 0.6);
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
 }
 .backdropWithLayer-3_uhz4 {
@@ -279,13 +270,12 @@ code {
 // Connected Users and Total User Text Color
 
 .wrapper-2fEmwW {
-    color:rgba(255, 255, 255, 0.7);
-
+    color: rgba(255, 255, 255, 0.7);
 }
 // Last Message Date Text Color
 
 .content-3spvdd {
-    color:rgba(255, 255, 255, 0.7)
+    color: rgba(255, 255, 255, 0.7);
 }
 
 // [Game Activity] Added Games Hover
@@ -331,9 +321,9 @@ code {
 
 .wordmark-2u86JB svg {
     width: 0px;
-  }
-  .theme-dark .wordmark-2u86JB:after {
-    font-family: "Discord";
+}
+.theme-dark .wordmark-2u86JB:after {
+    font-family: var(--font-headline);
     content: "Chatty";
     font-size: 12px;
     background: rgba(235, 235, 228, 0.521);
@@ -343,9 +333,9 @@ code {
     -webkit-text-fill-color: transparent;
     position: absolute;
     top: 5px;
-  }
+}
 
-// User Popouts | last update 02/08/2021 ->  04/01/2022 -> 22/09/2022 | 
+// User Popouts | last update 02/08/2021 ->  04/01/2022 -> 22/09/2022 |
 
 .userPopout-29jUdN {
     border-radius: var(--chattyBorderRadius) !important	;
@@ -354,11 +344,15 @@ code {
 }
 
 div[id^="popout_"] {
-  backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
-  border-radius: var(--chattyBorderRadius);
+    backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
+    border-radius: var(--chattyBorderRadius);
 }
 
-.userPopoutInnerWithBanner-24GX6I, .userPopoutInnerNonPremium-1EOFgI, .userPopoutInner-1v4xcM,.userPopoutInnerWithoutTheme-53VYav, .userPopoutInnerNonPremium-1EOFgI {
+.userPopoutInnerWithBanner-24GX6I,
+.userPopoutInnerNonPremium-1EOFgI,
+.userPopoutInner-1v4xcM,
+.userPopoutInnerWithoutTheme-53VYav,
+.userPopoutInnerNonPremium-1EOFgI {
     background: transparent !important;
 }
 
@@ -372,36 +366,36 @@ div[id^="popout_"] {
     box-shadow: 0px 0px 15px -3px black;
 }
 .accountProfilePopoutWrapper-3GskID {
-  left: 0px !important;
+    left: 0px !important;
 }
 
 // Pfp misalignment fix
 
 .bannerSVGWrapper-qc0szY mask {
-  display: none;
+    display: none;
 }
 
 .userPopout-2j1gM4 .wrapper-1VLyxH::before,
 .avatar-3QF_VA::before {
-  content: " ";
-  font-size: 0px;
-  background-color: transparent;
-  float: left;
-  border-radius: 50%;
-  height: 94px;
-  width: 94px;
-  margin: -7px;
+    content: " ";
+    font-size: 0px;
+    background-color: transparent;
+    float: left;
+    border-radius: 50%;
+    height: 94px;
+    width: 94px;
+    margin: -7px;
 }
 
 .avatar-3QF_VA::before {
-  height: 136px;
-  width: 136px;
-  margin: -8px;
+    height: 136px;
+    width: 136px;
+    margin: -8px;
 }
 
 .userPopout-2j1gM4 [class^="avatarWrapper"] .wrapper-1VLyxH,
 .avatarHint-k7pYop {
-  top: 9px;
+    top: 9px;
 }
 
 // Profile Modal
@@ -410,12 +404,11 @@ div[id^="popout_"] {
     border-radius: var(--chattyBorderRadius);
     background-color: transparent !important;
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
-
 }
 
-.body-1Ukv50, .topSection-13QKHs {
+.body-1Ukv50,
+.topSection-13QKHs {
     background-color: transparent !important;
-    
 }
 
 .avatar-3QF_VA {
@@ -438,31 +431,32 @@ div[id^="popout_"] {
 
 //-------------------------------------
 
-
 // Font Changed Things
-
 
 // Server Names
 
 .name-3Uvkvr {
-    font-family: Discord;
+    font-family: var(--font-headline);
 }
 
 // Buttons
 
-.lookFilled-1Gx00P .contents-18-Yxp, .lookInverted-2D7oAl .contents-18-Yxp, .lookLink-9FtZy- .contents-18-Yxp, .lookOutlined-3sRXeN .contents-18-Yxp, .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX {
-    font-family: Discord;
+.lookFilled-1Gx00P .contents-18-Yxp,
+.lookInverted-2D7oAl .contents-18-Yxp,
+.lookLink-9FtZy- .contents-18-Yxp,
+.lookOutlined-3sRXeN .contents-18-Yxp,
+.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP .buttonColor-3bP3fX {
+    font-family: var(--font-headline);
 }
 
 // Roles Groups
 
 .membersGroup-2eiWxl {
-    font-family: Discord;
+    font-family: var(--font-headline);
 }
 
 //-------------------------------------
-
-
 
 //Spotify "Add to Playlist"
 
@@ -478,7 +472,7 @@ div[id^="popout_"] {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
-.footer-31IekZ  {
+.footer-31IekZ {
     background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
@@ -536,11 +530,13 @@ div[id^="popout_"] {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.contentColumn-1C7as6, .customColumn-2n-oKU {
+.contentColumn-1C7as6,
+.customColumn-2n-oKU {
     max-width: none;
 }
 
-.headerDefault-1wrJcN, .headerClickable-2IVFo9 {
+.headerDefault-1wrJcN,
+.headerClickable-2IVFo9 {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
@@ -552,14 +548,13 @@ div[id^="popout_"] {
 .powerclock.sticky {
     background-color: transparent !important;
     box-shadow: none !important;
-    
 }
 
 .guilds-2JjMmN {
     background-color: transparent !important;
 }
 
-// Chat 
+// Chat
 
 // #app-mount .app-2CXKsg .chat-2ZfjoI {
 //    background: rgba(0, 0, 0, 0.5);
@@ -597,7 +592,8 @@ div[id^="popout_"] {
     border-bottom-right-radius: var(--chattyBorderRadius) !important;
 }
 
-.tierWrapper-CsnudO, .tier-lFqDUs {
+.tierWrapper-CsnudO,
+.tier-lFqDUs {
     border-radius: var(--chattyBorderRadius) !important;
 }
 
@@ -608,7 +604,7 @@ div[id^="popout_"] {
 
 // -------------------------------------
 
-// My account page fix 
+// My account page fix
 
 .accountProfileCard-lbN7n- {
     background-color: transparent !important;
@@ -622,11 +618,11 @@ div[id^="popout_"] {
 }
 
 .settingsBanner-1eDJ5w {
-	height: 250px;
+    height: 250px;
 }
 
 .avatar-3mTjvZ {
-	top: 230px;
+    top: 230px;
     border: 7px solid transparent !important;
     background-color: transparent !important;
 }
@@ -636,7 +632,6 @@ div[id^="popout_"] {
 }
 
 // -------------------------------------
-
 
 // Chat overlay bug fix
 
@@ -659,7 +654,7 @@ div[id^="popout_"] {
 }
 
 .container-3XgAHv {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     margin: var(--chattyPadding);
     margin-top: 5px !important;
     margin-left: 5px !important;
@@ -688,7 +683,7 @@ div[id^="popout_"] {
 }
 
 .scroller-29cQFV {
-    background-color: transparent !important
+    background-color: transparent !important;
 }
 
 // Video Grid Fix
@@ -698,7 +693,7 @@ div[id^="popout_"] {
 
 //--------
 
-// members bar fix --- 04 january 2022 
+// members bar fix --- 04 january 2022
 .container-2o3qEW {
     background: transparent !important;
 }
@@ -723,7 +718,6 @@ div[id^="popout_"] {
 .close-1mLglB {
     color: rgb(0, 0, 0) !important;
 }
-
 
 .base-21yXnu {
     color: white;
@@ -773,9 +767,9 @@ div[id^="popout_"] {
 // Post Q&A
 
 .container-3wLKDe {
-  background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 .container-3YcgdM {
-  background-color: transparent;
+    background-color: transparent;
 }

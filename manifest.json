@@ -1,0 +1,24 @@
+{
+  "id": "net.saltssaumure.Chatty",
+  "name": "Template",
+  "description": "A customizable sleek theme with rounder borders and transparent look.",
+  "author": [
+    { "name": "Alex", "discordID": "194474365646012416", "github": "mrrobboss" },
+    { "name": "Light", "discordID": "297352068858118147", "github": "zerol1ght" },
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    }
+  ],
+  "version": "2.0.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.Chatty"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/main.scss",
+  "source": "https://github.com/MiniDiscordThemes/Chatty",
+  "image": ["https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png"]
+}

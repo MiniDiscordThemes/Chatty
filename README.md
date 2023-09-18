@@ -1,90 +1,105 @@
-# Chatty Edit
+[screenshot]:       https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/Chatty1.png
+[light]:            https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/Chatty1.png
+[dark]:             https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/Chatty1.png
+
+[css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+[discord]:          https://discord.gg/uy8nKQVatp
+
+[BetterDiscord]:    https://betterdiscord.app/
+[Replugged]:        https://replugged.dev/
+[Vencord]:          https://github.com/Vendicated/Vencord
+
+[shield-donate]:    https://img.shields.io/badge/Donate-ko--fi-orange?style=flat-square&logo=kofi&logoColor=orange
+[ko-fi]:            https://ko-fi.com/saltssaumure "Buy me a coffee!"
+
+[shield-bd-dl]:     https://img.shields.io/github/downloads/MiniDiscordThemes/Chatty/Chatty.theme.css?color=purple&label=Downloads&style=flat-square
+[shield-asar-dl]:   https://img.shields.io/github/downloads/MiniDiscordThemes/Chatty/net.saltssaumure.Chatty.asar?color=purple&label=Downloads&style=flat-square
+[shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/Chatty?label=Repository&style=flat-square "Total size"
+
+[github]:           https://github.com/MiniDiscordThemes/Chatty
+[issues]:           https://github.com/MiniDiscordThemes/Chatty/issues
+[license]:          https://github.com/MiniDiscordThemes/Chatty/blob/main/LICENSE
+[.theme.css]:       https://github.com/MiniDiscordThemes/Chatty/blob/main/Chatty.theme.css
+
+[release-bd]:       https://betterdiscord.app/theme/?id=000 "BetterDiscord store page"
+[release-rp]:       https://replugged.dev/store/net.saltssaumure.Chatty "Replugged store page"
+[release-bd-gh]:    https://github.com/MiniDiscordThemes/Chatty/releases/latest/download/Chatty.theme.css "Get latest release"
+[release-rp-gh]:    https://github.com/MiniDiscordThemes/Chatty/releases/latest/download/net.saltssaumure.Chatty.asar "Get latest release"
+
+# Chatty
+[![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
+[![BetterDiscord GitHub downloads][shield-bd-dl]][release-bd-gh]
+[![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
+[![Total repository size][shield-repo-size]][github]
+
 ![chatty-logo](assets/logo2.png)
+![Preview](assets/chatty_preview.png)
 > Chatty is a customizable sleek-looking Discord theme with rounded borders, trasparency and a custom background.
 
-# Features
-- [X] Custom Background Images, by default daily images from [Unsplash](https://unsplash.com/)
-- [X] Replugged Support
-- [X] BetterDiscord Support
-- [X] Vencord Support
-- [X] OpenAsar Support
+## Installation
 
-# Preview
-![Preview](assets/chatty_preview.png)
+### [BetterDiscord][BetterDiscord]
+1. Download `Chatty.theme.css`:
+    - [GitHub][release-bd-gh]
+2. Place the file in the themes folder:
+    - `Settings` > `BetterDiscord` > `Themes` > `Open Themes Folder`
+3. Toggle on the theme card.
 
-# Installation
-Follow those steps to install the theme on your client.
-### **Replugged**
-- Open the Replugged Theme Folder.
-  - :one: Discord settings
-  - :two: Themes
-  - :three: Open Theme Folder
-- Open a terminal instance in the folder. ([MacOS](https://www.maketecheasier.com/launch-terminal-current-folder-mac/) - [Windows](https://www.howtogeek.com/789662/how-to-open-a-cmd-window-in-a-folder-on-windows/))
-- In the terminal paste this ``` git clone https://github.com/zerol1ght/chatty-edit.git ``` and click enter.
+### [Replugged][Replugged]
+#### Automatic
+1. Click to install:
+    - [Replugged store][release-rp]
+#### Manual
+1. Download `net.saltssaumure.Chatty.asar`:
+    - [GitHub][release-rp-gh]
+2. Place the file in the themes folder:
+    - `Settings` > `Replugged` > `Themes` > `Open Themes Folder`
+3. Click `Load Missing Themes` and toggle on the theme card.
 
-​
-### **BetterDiscord**
-- Open the BetterDiscord Theme Folder.
-  - :one: Discord settings
-  - :two: Themes
-  - :three: Open Theme Folder
-- Open a terminal instance in the folder. ([MacOS](https://www.maketecheasier.com/launch-terminal-current-folder-mac/) - [Windows](https://www.howtogeek.com/789662/how-to-open-a-cmd-window-in-a-folder-on-windows/))
-- In the terminal paste this ``` git clone https://github.com/zerol1ght/chatty-edit.git ``` and click enter.
-- Once you have the folder downloaded, open it and move out the ``` ChattyEdit.theme.css ``` file on the main ``` Themes Folder ```.
-- Enable the theme from the themes settings on BetterDiscord.
+### [Vencord][Vencord]
+#### Local
+1. Download `Chatty.theme.css`:
+    - [GitHub][release-bd-gh]
+2. Place the file in the themes folder:
+    - `Settings` > `Vencord` > `Themes` > `Local Themes` > `Open Themes Folder`
+3. Click `Load missing Themes` and toggle on the theme card.
+#### Online
+1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
+    - `https://minidiscordthemes.github.io/Chatty/Chatty.theme.css`
 
-​
-### **Vencord**
-- Open the Vencord settings.
-  - :one: Discord Settings
-  - :two: Vencord
-- Open Quick CSS File.
-- Paste this ``` @import url(https://cdn.jsdelivr.net/gh/zerol1ght/chatty-edit@master/ChattyEdit.theme.css); ``` and save file.
-- Reload.
-> For additional support contact [@RivenSkaye](https://github.com/RivenSkaye)
+## Customisation
 
-​
-### **OpenAsar**
-- Open Discord settings, and scroll at the bottom until you find you OpenAsar Version. ![OpenAsar-Version](https://i.imgur.com/ueKy1eI.png)
-- Click on it.
-- On the OpenAsar Settings go on the Theming tab.
-- Paste this ``` @import url(https://cdn.jsdelivr.net/gh/zerol1ght/chatty-edit@master/ChattyEdit.theme.css); ``` and click **restart**.
+### BetterDiscord
+1. Open `Settings` > `BetterDiscord` > `Themes`.
+2. Click the pencil icon on this theme.
+3. Edit the variable values and save changes.
 
-​
-# How to set a custom background image
-Add this in the quick css.
-```css
-:root {
-  --chattyBackgroundImage: url(http://website.com/image.png) !important;
-}
-```
-Replace the url with the one of your image. (local files not supported).
-You can use [imgur](https://www.imgur.com) or other image hosting sites.
+### Replugged
+1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
+2. Open `Settings` > `Replugged` > `Quick CSS`.
+3. Copy and paste lines 15-26 of [`Chatty.theme.css`][.theme.css].
+4. Edit the variable values and save.
 
-# Updates
-I'll try to update the theme every time I see bugs or something that isn't working, if you notice a bug please create an **[issue](https://github.com/zerol1ght/chatty-edit/issues)** or **[contact me](https://github.com/zerol1ght/chatty-edit#contacts)**.
+### Vencord
+#### Local
+1. `Open Themes Folder` in `Settings` > `Vencord` > `Themes` > `Local Themes`
+2. Open `Chatty.theme.css` with your favourite text editor.
+3. Edit the variable values and save.
+#### Online
+1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
+2. Copy and paste lines 15-26 of [`Chatty.theme.css`][.theme.css].
+3. Edit the variable values.
 
-# Customisation +
-Change these variables only if you know what you're doing!
-> **I DO NOT GARANTEE THAT IT WILL WORK IN EVERY PART OF THE THEME**
+## License
+[MIT License][license]
+- <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, just include the original license.
 
-Paste this in the Quick CSS and edit it
-```css
-:root {
-    --chattyBorderRadius: 15px !important;
-    --chattyPadding: 10px !important;
-    --chattyBlur: 5px !important;
-    --interactive-muted: #D08770 !important;
-    --background-primary: rgba(0, 0, 0, 0.2) !important;
-    --background-secondary: rgba(0, 0, 0, 0.3) !important;
-    --background-secondary-alt: rgba(0, 0, 0, 0.3) !important;
-    --background-tertiary: rgb(39, 39, 39) !important;
-}
-```
+### Includes
+[ce]: https://github.com/zerol1ght/chatty-edit
+[ce-author1]: https://github.com/mrrobboss
+[ce-author2]: https://github.com/zerol1ght
+- [Chatty Edit][ce] by [Alex][ce-author1] and [Light][ce-author2] - MIT
 
-# Contacts
-You can contact me on:
-- **Discord:** Light#0853
-  - *You can dm me or just @tag me in [Replugged's server](https://discord.gg/s9aSD5Tfk3)*
-- **Twitter:** [@honeystlyalbi](https://twitter.com/honeystlyalbi)
-- **Mail:**  <zerol1ght@protonmail.com>
+## Questions or suggestions?
+- Post [an issue][issues] on GitHub.
+- Post in `#theme-support` on [my support server][discord].
