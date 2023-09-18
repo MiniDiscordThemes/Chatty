@@ -1,7 +1,7 @@
 {
-  "id": "net.saltssaumure.Chatty",
-  "name": "Template",
-  "description": "A customizable sleek theme with rounder borders and transparent look.",
+  "id": "net.saltssaumure.LegacyChatty",
+  "name": "Legacy Chatty",
+  "description": "Legacy style of Chatty: a customizable sleek theme with rounder borders and transparent look.",
   "author": [
     { "name": "Alex", "discordID": "194474365646012416", "github": "mrrobboss" },
     { "name": "Light", "discordID": "297352068858118147", "github": "zerol1ght" },
@@ -14,11 +14,14 @@
   "version": "2.0.0",
   "updater": {
     "type": "store",
-    "id": "net.saltssaumure.Chatty"
+    "id": "net.saltssaumure.LegacyChatty"
   },
   "license": "MIT",
   "type": "replugged-theme",
   "main": "scss/main.scss",
   "source": "https://github.com/MiniDiscordThemes/Chatty",
-  "image": ["https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png"]
+  "image": [
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1153474965505577070/logo2.png",
+    "https://cdn.discordapp.com/attachments/1142305515439923260/1153474966025687090/chatty_preview.png"
+  ]
 }
