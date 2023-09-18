@@ -1,0 +1,26 @@
+/**
+ * @name Chatty
+ * @author Alex, Light, Saltssaumure
+ * @authorLink https://github.com/Saltssaumure
+ * @description A customizable sleek theme with rounder borders and transparent look.
+ * @license MIT
+ * @version 2.0
+ * @invite uy8nKQVatp
+ * @source https://github.com/MiniDiscordThemes/Chatty
+ * @donate https://ko-fi.com/saltssaumure
+*/
+
+@import url("https://minidiscordthemes.github.io/Chatty/main.min.css");
+
+/* See https://github.com/MiniDiscordThemes/Template#customisation for customisation settings. */
+:root {
+  --chattyBackgroundImage: url(https://source.unsplash.com/daily);
+  --chattyBorderRadius: 15px;
+  --chattyPadding: 10px;
+  --chattyBlur: 5px;
+  --interactive-muted: #D08770;
+  --background-primary: rgba(0, 0, 0, 0.2);
+  --background-secondary: rgba(0, 0, 0, 0.3);
+  --background-secondary-alt: rgba(0, 0, 0, 0.3);
+  --background-tertiary: #23272a;
+}
