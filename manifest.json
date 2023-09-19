@@ -3,15 +3,23 @@
   "name": "Legacy Chatty",
   "description": "Legacy style of Chatty: a customizable sleek theme with rounder borders and transparent look.",
   "author": [
-    { "name": "Alex", "discordID": "194474365646012416", "github": "mrrobboss" },
-    { "name": "Light", "discordID": "297352068858118147", "github": "zerol1ght" },
+    {
+      "name": "Alex",
+      "discordID": "194474365646012416",
+      "github": "mrrobboss"
+    },
+    {
+      "name": "Light",
+      "discordID": "297352068858118147",
+      "github": "zerol1ght"
+    },
     {
       "name": "Saltssaumure",
       "discordID": "134142022092062720",
       "github": "Saltssaumure"
     }
   ],
-  "version": "2.0.0",
+  "version": "2.0.1",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.LegacyChatty"
