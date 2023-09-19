@@ -5,7 +5,7 @@
     background-position: center;
     .typeWindows-2-g3UY {
         backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
-        background-color: #934039;
+        background: #934039;
         background: transparent;
         height: 18px;
         margin-top: 0px;
@@ -232,10 +232,10 @@ code {
 
 // RTC Connection Status Card
 .theme-dark .container-1ILvLB section {
-    background-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
 }
 .theme-dark .container-1ILvLB .header-2C89wJ {
-    background-color: rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
 }
 .container-1ILvLB {
     width: 250px;
@@ -249,13 +249,13 @@ code {
 // Screen Sharing Card
 
 .theme-dark .footer-31IekZ {
-    background-color: #00000000;
+    background: #00000000;
     box-shadow: inset 0 1px 0 rgba(47, 49, 54, 0.6);
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
 }
 .backdropWithLayer-3_uhz4 {
     opacity: 1;
-    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
 }
 
@@ -267,7 +267,7 @@ code {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    background-color: transparent;
+    background: transparent;
     overflow: hidden;
 }
 
@@ -285,21 +285,21 @@ code {
 // [Game Activity] Added Games Hover
 
 .theme-dark .card-2ART2V:before {
-    background-color: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
     border-color: var(--background-primary);
 }
 
 // [Game Activity] Add Game Menu
 
 .theme-dark .addGamePopout-3yePJc {
-    background-color: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
 }
 
 // Server Roles
 
 .scroller-3_YDR2 {
-    background-color: transparent;
+    background: transparent;
 }
 
 // Floating Menus
@@ -312,13 +312,13 @@ code {
 // Rapid Reactions BG
 
 .button-1zW0-r {
-    background-color: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 // Rapid Actions on Messages
 
 .wrapper-2vIMkT {
-    background-color: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 // Custom Discord Text
@@ -339,11 +339,11 @@ code {
     top: 5px;
 }
 
-// User Popouts | last update 02/08/2021 ->  04/01/2022 -> 22/09/2022 |
+// User Popouts
 
-.userPopout-29jUdN {
+.userProfileOuter-2tQwNf {
     border-radius: var(--chattyBorderRadius);
-    background-color: transparent;
+    background: transparent;
     box-shadow: 0px 0px 20px black;
 }
 
@@ -352,81 +352,47 @@ div[id^="popout_"] {
     border-radius: var(--chattyBorderRadius);
 }
 
-.userPopoutInnerWithBanner-24GX6I,
-.userPopoutInnerNonPremium-1EOFgI,
-.userPopoutInner-1v4xcM,
-.userPopoutInnerWithoutTheme-53VYav,
-.userPopoutInnerNonPremium-1EOFgI {
+.userProfileInner-1ngKnf,
+.userProfileInner-1ngKnf:before {
     background: transparent;
 }
 
-.overlayBackground-2Zjm9f {
-    background-color: transparent;
+.overlayBackground-2aa7wt {
+    background: transparent;
     margin: 20px 10px 10px;
 }
 
 .profileBadges-31rDHI {
-    background-color: transparent;
+    background: transparent;
     box-shadow: 0px 0px 15px -3px black;
 }
 .accountProfilePopoutWrapper-3GskID {
     left: 0px;
 }
 
-// Pfp misalignment fix
-
-.bannerSVGWrapper-qc0szY mask {
-    display: none;
-}
-
-.userPopout-2j1gM4 .wrapper-1VLyxH::before,
-.avatar-3QF_VA::before {
-    content: " ";
-    font-size: 0px;
-    background-color: transparent;
-    float: left;
-    border-radius: 50%;
-    height: 94px;
-    width: 94px;
-    margin: -7px;
-}
-
-.avatar-3QF_VA::before {
-    height: 136px;
-    width: 136px;
-    margin: -8px;
-}
-
-.userPopout-2j1gM4 [class^="avatarWrapper"] .wrapper-1VLyxH,
-.avatarHint-k7pYop {
-    top: 9px;
-}
-
 // Profile Modal
 
-.root-g14mjS {
+.root-1CAIjD {
     border-radius: var(--chattyBorderRadius);
-    background-color: transparent;
+    background: transparent;
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
 }
 
 .body-1Ukv50,
 .topSection-13QKHs {
-    background-color: transparent;
+    background: transparent;
 }
 
 .avatar-3QF_VA {
-    border: 8px solid transparent;
-    background-color: transparent;
+    background: transparent;
 }
 
-.connectedAccountContainer-SlCC-S {
-    background-color: var(--background-primary);
+.connectedAccountContainer-3aLMHJ {
     border-radius: var(--chattyBorderRadius);
 }
 
 .badgeList-2aoHPw {
-    background-color: var(--background-primary);
+    background: transparent;
     border-radius: var(--chattyBorderRadius);
     padding-right: 2px;
     padding-left: 5px;
@@ -444,11 +410,11 @@ div[id^="popout_"] {
 }
 
 // Buttons
-
-.lookFilled-1Gx00P .contents-18-Yxp,
-.lookInverted-2D7oAl .contents-18-Yxp,
-.lookLink-9FtZy- .contents-18-Yxp,
-.lookOutlined-3sRXeN .contents-18-Yxp,
+.lookFilled-1H2Jvj .contents-3NembX,
+.lookFilled-GPyucw .contents-3NembX,
+.lookInverted-2GrLaB .contents-3NembX,
+.lookLink-13iF2K .contents-3NembX,
+.lookOutlined-3RTC7c .contents-3NembX,
 .button-1EGGcP.buttonColor-3bP3fX,
 .button-1EGGcP .buttonColor-3bP3fX {
     font-family: var(--font-headline);
@@ -465,23 +431,23 @@ div[id^="popout_"] {
 //Spotify "Add to Playlist"
 
 .modal-2RrUKJ {
-    background-color: transparent;
+    background: transparent;
 }
 
 .header-1zd7se {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .content-2hZxGK {
-    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .footer-31IekZ {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .playlist {
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 // Server Roles *updated*
@@ -503,7 +469,7 @@ div[id^="popout_"] {
 }
 
 .list-1AJFv_ {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .page-15bX59 {
@@ -519,19 +485,19 @@ div[id^="popout_"] {
 }
 
 .scroller-14hecM {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .scroller-39BnzZ {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .list-38_JVu {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .scroller-1J_F7B {
-    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .contentColumn-1C7as6,
@@ -541,21 +507,21 @@ div[id^="popout_"] {
 
 .headerDefault-1wrJcN,
 .headerClickable-2IVFo9 {
-    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 // Server List Scroller
 .scroller-3X7KbA {
-    background-color: transparent;
+    background: transparent;
 }
 
 .powerclock.sticky {
-    background-color: transparent;
+    background: transparent;
     box-shadow: none;
 }
 
 .guilds-2JjMmN {
-    background-color: transparent;
+    background: transparent;
 }
 
 // Chat
@@ -577,11 +543,11 @@ div[id^="popout_"] {
 }
 
 .tierMarkerBackground-G8FoN4 {
-    background-color: var(--background-primary);
+    background: var(--background-primary);
 }
 
 .perksModal-CLcR1c {
-    background-color: transparent;
+    background: transparent;
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
 }
 
@@ -591,7 +557,7 @@ div[id^="popout_"] {
 }
 
 .tierBody-3ju-rc {
-    background-color: var(--background-primary);
+    background: var(--background-primary);
     border-bottom-left-radius: var(--chattyBorderRadius);
     border-bottom-right-radius: var(--chattyBorderRadius);
 }
@@ -602,7 +568,7 @@ div[id^="popout_"] {
 }
 
 .perk-19D_HN {
-    background-color: var(--background-primary);
+    background: var(--background-primary);
     border-radius: var(--chattyBorderRadius);
 }
 
@@ -611,7 +577,7 @@ div[id^="popout_"] {
 // My account page fix
 
 .accountProfileCard-lbN7n- {
-    background-color: transparent;
+    background: transparent;
     background: transparent;
     backdrop-filter: blur(var(--chattyBlur)) brightness(0.7);
     border-radius: var(--chattyBorderRadius);
@@ -628,11 +594,11 @@ div[id^="popout_"] {
 .avatar-3mTjvZ {
     top: 230px;
     border: 7px solid transparent;
-    background-color: transparent;
+    background: transparent;
 }
 
 .fieldList-in8WkP {
-    background-color: transparent;
+    background: transparent;
 }
 
 // -------------------------------------
@@ -650,7 +616,7 @@ div[id^="popout_"] {
 }
 
 .floating-3M3WeH {
-    background-color: var(--background-floating);
+    background: var(--background-floating);
     border-left: none;
     filter: none;
     -webkit-filter: none;
@@ -658,7 +624,7 @@ div[id^="popout_"] {
 }
 
 .container-3XgAHv {
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     margin: var(--chattyPadding);
     margin-top: 5px;
     margin-left: 5px;
@@ -676,7 +642,7 @@ div[id^="popout_"] {
 // Nitro Page
 
 .applicationStore-2nk7Lo {
-    background-color: transparent;
+    background: transparent;
     margin: var(--chattyPadding);
     margin-top: 5px;
 }
@@ -687,12 +653,12 @@ div[id^="popout_"] {
 }
 
 .scroller-29cQFV {
-    background-color: transparent;
+    background: transparent;
 }
 
 // Video Grid Fix
 .callContainer-HtHELf {
-    background-color: transparent;
+    background: transparent;
 }
 
 //--------
@@ -704,19 +670,19 @@ div[id^="popout_"] {
 
 // navigation bar fix
 .navigationBar-3r0IQK {
-    background-color: transparent;
+    background: transparent;
 }
 
 // join-create server popup fix
 .header-1zd7se {
-    background-color: transparent;
+    background: transparent;
 }
 .content-2hZxGK {
-    background-color: transparent;
+    background: transparent;
 }
 
 .theme-dark .footer-31IekZ {
-    background-color: transparent;
+    background: transparent;
 }
 
 .close-1mLglB {
@@ -728,24 +694,24 @@ div[id^="popout_"] {
 }
 
 .container-x8Y1ix:hover {
-    background-color: rgba(255, 255, 255, 0.609);
+    background: rgba(255, 255, 255, 0.609);
 }
 
 .theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV {
-    background-color: #5865f2;
+    background: #5865f2;
 }
 
 .theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
-    background-color: #5865f2b4;
+    background: #5865f2b4;
 }
 
 // "no one else is here yet. invite people to join you!" card background remove
 .tile-2TcwiO {
-    background-color: transparent;
+    background: transparent;
 }
 
 .button-3Vyz67 {
-    background-color: #f47fff;
+    background: #f47fff;
 }
 
 // Video and Screen share buttons
@@ -771,9 +737,9 @@ div[id^="popout_"] {
 // Post Q&A
 
 .container-3wLKDe {
-    background-color: transparent;
+    background: transparent;
 }
 
 .container-3YcgdM {
-    background-color: transparent;
+    background: transparent;
 }
