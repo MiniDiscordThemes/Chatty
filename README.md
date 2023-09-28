@@ -12,19 +12,19 @@
 [shield-donate]:    https://img.shields.io/badge/Donate-ko--fi-orange?style=flat-square&logo=kofi&logoColor=orange
 [ko-fi]:            https://ko-fi.com/saltssaumure "Buy me a coffee!"
 
-[shield-bd-dl]:     https://img.shields.io/github/downloads/MiniDiscordThemes/Chatty/Chatty.theme.css?color=purple&label=Downloads&style=flat-square
-[shield-asar-dl]:   https://img.shields.io/github/downloads/MiniDiscordThemes/Chatty/net.saltssaumure.Chatty.asar?color=purple&label=Downloads&style=flat-square
+[shield-bd-dl]:     https://img.shields.io/github/downloads/MiniDiscordThemes/Chatty/LegacyChatty.theme.css?color=purple&label=Downloads&style=flat-square
+[shield-asar-dl]:   https://img.shields.io/github/downloads/MiniDiscordThemes/Chatty/net.saltssaumure.LegacyChatty.asar?color=purple&label=Downloads&style=flat-square
 [shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/Chatty?label=Repository&style=flat-square "Total size"
 
 [github]:           https://github.com/MiniDiscordThemes/Chatty
 [issues]:           https://github.com/MiniDiscordThemes/Chatty/issues
 [license]:          https://github.com/MiniDiscordThemes/Chatty/blob/main/LICENSE
-[.theme.css]:       https://github.com/MiniDiscordThemes/Chatty/blob/main/Chatty.theme.css
+[.theme.css]:       https://github.com/MiniDiscordThemes/Chatty/blob/main/LegacyChatty.theme.css
 
 [release-bd]:       https://betterdiscord.app/theme/?id=000 "BetterDiscord store page"
-[release-rp]:       https://replugged.dev/store/net.saltssaumure.Chatty "Replugged store page"
-[release-bd-gh]:    https://github.com/MiniDiscordThemes/Chatty/releases/latest/download/Chatty.theme.css "Get latest release"
-[release-rp-gh]:    https://github.com/MiniDiscordThemes/Chatty/releases/latest/download/net.saltssaumure.Chatty.asar "Get latest release"
+[release-rp]:       https://replugged.dev/store/net.saltssaumure.LegacyChatty "Replugged store page"
+[release-bd-gh]:    https://github.com/MiniDiscordThemes/Chatty/releases/latest/download/LegacyChatty.theme.css "Get latest release"
+[release-rp-gh]:    https://github.com/MiniDiscordThemes/Chatty/releases/latest/download/net.saltssaumure.LegacyChatty.asar "Get latest release"
 
 # Chatty
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
@@ -34,12 +34,12 @@
 
 ![chatty-logo](assets/logo2.png)
 ![Preview](assets/chatty_preview.png)
-> Chatty is a customizable sleek-looking Discord theme with rounded borders, trasparency and a custom background.
+***Legacy style of Chatty: a customizable sleek-looking Discord theme with rounded borders, trasparency and a custom background.***
 
 ## Installation
 
 ### [BetterDiscord][BetterDiscord]
-1. Download `Chatty.theme.css`:
+1. Download `LegacyChatty.theme.css`:
     - [GitHub][release-bd-gh]
 2. Place the file in the themes folder:
     - `Settings` > `BetterDiscord` > `Themes` > `Open Themes Folder`
@@ -50,7 +50,7 @@
 1. Click to install:
     - [Replugged store][release-rp]
 #### Manual
-1. Download `net.saltssaumure.Chatty.asar`:
+1. Download `net.saltssaumure.LegacyChatty.asar`:
     - [GitHub][release-rp-gh]
 2. Place the file in the themes folder:
     - `Settings` > `Replugged` > `Themes` > `Open Themes Folder`
@@ -58,14 +58,14 @@
 
 ### [Vencord][Vencord]
 #### Local
-1. Download `Chatty.theme.css`:
+1. Download `LegacyChatty.theme.css`:
     - [GitHub][release-bd-gh]
 2. Place the file in the themes folder:
     - `Settings` > `Vencord` > `Themes` > `Local Themes` > `Open Themes Folder`
 3. Click `Load missing Themes` and toggle on the theme card.
 #### Online
 1. Paste the link in `Settings` > `Vencord` > `Themes` > `Online Themes`:
-    - `https://minidiscordthemes.github.io/Chatty/Chatty.theme.css`
+    - `https://minidiscordthemes.github.io/Chatty/LegacyChatty.theme.css`
 
 ## Customisation
 
@@ -77,17 +77,17 @@
 ### Replugged
 1. Enable `Automatically Apply Quick CSS` in `Settings` > `Replugged` > `General`.
 2. Open `Settings` > `Replugged` > `Quick CSS`.
-3. Copy and paste lines 15-26 of [`Chatty.theme.css`][.theme.css].
+3. Copy and paste lines 15-26 of [`LegacyChatty.theme.css`][.theme.css].
 4. Edit the variable values and save.
 
 ### Vencord
 #### Local
 1. `Open Themes Folder` in `Settings` > `Vencord` > `Themes` > `Local Themes`
-2. Open `Chatty.theme.css` with your favourite text editor.
+2. Open `LegacyChatty.theme.css` with your favourite text editor.
 3. Edit the variable values and save.
 #### Online
 1. `Enable Custom CSS` in `Settings` > `Vencord` > `Vencord` and click `Open QuickCSS File`.
-2. Copy and paste lines 15-26 of [`Chatty.theme.css`][.theme.css].
+2. Copy and paste lines 15-26 of [`LegacyChatty.theme.css`][.theme.css].
 3. Edit the variable values.
 
 ## License
