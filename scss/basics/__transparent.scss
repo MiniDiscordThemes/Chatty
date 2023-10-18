@@ -114,7 +114,7 @@
                 }
             }
         }
-        .chat-2ZfjoI {
+        :is(.chat-2ZfjoI, .chat-9g_3Xj) {
             background: rgba(0, 0, 0, 0.5);
             margin: var(--chattyPadding);
             margin-top: 5px;
@@ -128,7 +128,7 @@
                     background: rgba(0, 0, 0, 0.4);
                 }
             }
-            .content-1jQy2l:before {
+            :is(.content-1jQy2l, .content-18rAwf):before {
                 display: none;
             }
             .messagesWrapper-RpOMA3 {
@@ -165,17 +165,17 @@
                     }
                 }
             }
-            .form-3gdLxP:before {
+            :is(.form-3gdLxP, .form-3qe0Ni):before {
                 opacity: 0;
             }
-            .channelTextArea-1FufC0 {
+            :is(.channelTextArea-1FufC0, .channelTextArea-1deLlK) {
                 background: rgba(0, 0, 0, 0.4);
                 border-radius: var(--chattyBorderRadius);
                 .scrollableContainer-15eg7h {
                     background: transparent;
                 }
             }
-            .members-3WRCEx {
+            :is(.members-3WRCEx, .members-2y1nVj) {
                 background: transparent;
                 > div {
                     background: transparent;
@@ -323,10 +323,10 @@ code {
 
 // Custom Discord Text
 
-.wordmark-2u86JB svg {
+:is(.wordmark-2u86JB, .wordmark-3wYFg6) svg {
     width: 0px;
 }
-.theme-dark .wordmark-2u86JB:after {
+.theme-dark :is(.wordmark-2u86JB, .wordmark-3wYFg6):after {
     font-family: var(--font-headline);
     content: "Chatty";
     font-size: 12px;
@@ -366,7 +366,7 @@ div[id^="popout_"] {
     background: transparent;
     box-shadow: 0px 0px 15px -3px black;
 }
-.accountProfilePopoutWrapper-3GskID {
+:is(.accountProfilePopoutWrapper-3GskID, .accountProfilePopoutWrapper-Ag_Fip) {
     left: 0px;
 }
 
@@ -415,14 +415,14 @@ div[id^="popout_"] {
 .lookInverted-2GrLaB .contents-3NembX,
 .lookLink-13iF2K .contents-3NembX,
 .lookOutlined-3RTC7c .contents-3NembX,
-.button-1EGGcP.buttonColor-3bP3fX,
-.button-1EGGcP .buttonColor-3bP3fX {
+:is(.button-1EGGcP, .button-2gNyE9):is(.buttonColor-3bP3fX, .buttonColor-1PCuWq),
+:is(.button-1EGGcP, .button-2gNyE9) :is(.buttonColor-3bP3fX, .buttonColor-1PCuWq) {
     font-family: var(--font-headline);
 }
 
 // Roles Groups
 
-.membersGroup-2eiWxl {
+:is(.membersGroup-2eiWxl, .membersGroup-2YoqY-) {
     font-family: var(--font-headline);
 }
 
@@ -526,7 +526,7 @@ div[id^="popout_"] {
 
 // Chat
 
-// #app-mount .app-2CXKsg .chat-2ZfjoI {
+// #app-mount .app-2CXKsg :is(.chat-2ZfjoI, .chat-9g_3Xj) {
 //    background: rgba(0, 0, 0, 0.5);
 // }
 
@@ -615,7 +615,7 @@ div[id^="popout_"] {
     background: transparent;
 }
 
-.floating-3M3WeH {
+:is(.floating-3M3WeH, .floating-1T0kDs) {
     background: var(--background-floating);
     border-left: none;
     filter: none;
@@ -623,7 +623,7 @@ div[id^="popout_"] {
     max-height: 60%;
 }
 
-.container-3XgAHv {
+:is(.container-3XgAHv, .container-3s2w-i) {
     background: rgba(0, 0, 0, 0.5);
     margin: var(--chattyPadding);
     margin-top: 5px;
@@ -631,11 +631,11 @@ div[id^="popout_"] {
     border-radius: var(--chattyBorderRadius);
 }
 
-.threadSidebarOpen-1LSXvU {
+:is(.threadSidebarOpen-1LSXvU, .threadSidebarOpen-lv7sGl) {
     margin-right: 5px;
 }
 
-.threadSidebarFloating-uC2s6v {
+:is(.threadSidebarFloating-uC2s6v, .threadSidebarFloating-ZzdH0E) {
     margin-right: var(--chattyPadding);
 }
 
@@ -664,7 +664,7 @@ div[id^="popout_"] {
 //--------
 
 // members bar fix --- 04 january 2022
-.container-2o3qEW {
+:is(.container-2o3qEW, .container-2vWgD2) {
     background: transparent;
 }
 
@@ -716,7 +716,7 @@ div[id^="popout_"] {
 
 // Video and Screen share buttons
 
-.buttonIcon-2Zsrs2 {
+:is(.buttonIcon-2Zsrs2, .buttonIcon-1OrqOd) {
     width: 15px;
     height: 15px;
 }
