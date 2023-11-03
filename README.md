@@ -12,21 +12,21 @@
 [shield-donate]:    https://img.shields.io/badge/Donate-ko--fi-orange?style=flat-square&logo=kofi&logoColor=orange
 [ko-fi]:            https://ko-fi.com/saltssaumure "Buy me a coffee!"
 
-[shield-bd-dl]:     https://img.shields.io/github/downloads/MiniDiscordThemes/Chatty/LegacyChatty.theme.css?color=purple&label=Downloads&style=flat-square
-[shield-asar-dl]:   https://img.shields.io/github/downloads/MiniDiscordThemes/Chatty/net.saltssaumure.LegacyChatty.asar?color=purple&label=Downloads&style=flat-square
-[shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/Chatty?label=Repository&style=flat-square "Total size"
+[shield-bd-dl]:     https://img.shields.io/github/downloads/MiniDiscordThemes/LegacyChatty/LegacyChatty.theme.css?color=purple&label=Downloads&style=flat-square
+[shield-asar-dl]:   https://img.shields.io/github/downloads/MiniDiscordThemes/LegacyChatty/net.saltssaumure.LegacyChatty.asar?color=purple&label=Downloads&style=flat-square
+[shield-repo-size]: https://img.shields.io/github/repo-size/MiniDiscordThemes/LegacyChatty?label=Repository&style=flat-square "Total size"
 
-[github]:           https://github.com/MiniDiscordThemes/Chatty
-[issues]:           https://github.com/MiniDiscordThemes/Chatty/issues
-[license]:          https://github.com/MiniDiscordThemes/Chatty/blob/main/LICENSE
-[.theme.css]:       https://github.com/MiniDiscordThemes/Chatty/blob/main/LegacyChatty.theme.css
+[github]:           https://github.com/MiniDiscordThemes/LegacyChatty
+[issues]:           https://github.com/MiniDiscordThemes/LegacyChatty/issues
+[license]:          https://github.com/MiniDiscordThemes/LegacyChatty/blob/main/LICENSE
+[.theme.css]:       https://github.com/MiniDiscordThemes/LegacyChatty/blob/main/LegacyChatty.theme.css
 
 [release-bd]:       https://betterdiscord.app/theme/?id=000 "BetterDiscord store page"
 [release-rp]:       https://replugged.dev/store/net.saltssaumure.LegacyChatty "Replugged store page"
-[release-bd-gh]:    https://github.com/MiniDiscordThemes/Chatty/releases/latest/download/LegacyChatty.theme.css "Get latest release"
-[release-rp-gh]:    https://github.com/MiniDiscordThemes/Chatty/releases/latest/download/net.saltssaumure.LegacyChatty.asar "Get latest release"
+[release-bd-gh]:    https://github.com/MiniDiscordThemes/LegacyChatty/releases/latest/download/LegacyChatty.theme.css "Get latest release"
+[release-rp-gh]:    https://github.com/MiniDiscordThemes/LegacyChatty/releases/latest/download/net.saltssaumure.LegacyChatty.asar "Get latest release"
 
-# Chatty
+# Legacy Chatty
 [![Buy me a coffee on ko-fi][shield-donate]][ko-fi]
 [![BetterDiscord GitHub downloads][shield-bd-dl]][release-bd-gh]
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
