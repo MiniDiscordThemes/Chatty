@@ -1,5 +1,5 @@
 @use "./basics";
-// @use "./addons";
+@use "./addons";
 
 :root {
     --chattyBackgroundImage: url(https://source.unsplash.com/daily);
