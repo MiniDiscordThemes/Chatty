@@ -2,17 +2,17 @@
  * @name LegacyChatty
  * @author Alex, Light, Saltssaumure
  * @authorLink https://github.com/Saltssaumure
- * @description A customizable sleek theme with rounder borders and transparent look.
+ * @description Legacy style of Chatty: a customizable sleek theme with rounder borders and transparent look.
  * @license MIT
  * @version 2.0
  * @invite uy8nKQVatp
- * @source https://github.com/MiniDiscordThemes/Chatty
+ * @source https://github.com/MiniDiscordThemes/LegacyChatty
  * @donate https://ko-fi.com/saltssaumure
 */
 
-@import url("https://minidiscordthemes.github.io/Chatty/main.min.css");
+@import url("https://minidiscordthemes.github.io/LegacyChatty/main.min.css");
 
-/* See https://github.com/MiniDiscordThemes/Chatty#customisation for customisation settings. */
+/* See https://github.com/MiniDiscordThemes/LegacyChatty#customisation for customisation settings. */
 :root {
   --chattyBackgroundImage: url(https://source.unsplash.com/daily);
   --chattyBorderRadius: 15px;
