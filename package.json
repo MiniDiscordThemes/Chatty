@@ -1,6 +1,6 @@
 {
   "name": "legacychatty-discord-theme",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Legacy style of Chatty: a customizable sleek theme with rounder borders and transparent look.",
   "repository": "github:MiniDiscordThemes/LegacyChatty",
   "author": "Saltssaumure <themes@saltssaumure.net>",
@@ -16,6 +16,7 @@
     "dev:bd": "bd-scss dev",
     "dev:rp": "replugged build theme --watch",
     "dev:vc": "bd-scss dev:vc",
+    "dev:vt": "bd-scss dev:vt",
     "build:bd": "bd-scss build",
     "build:rp": "replugged bundle theme",
     "lint": "prettier ./scss --check",
@@ -23,8 +24,8 @@
     "release": "replugged release"
   },
   "devDependencies": {
-    "prettier": "^3.2.4",
-    "replugged": "^4.7.8",
-    "salt-bd-scss": "^1.2.1"
+    "prettier": "^3.2.5",
+    "replugged": "^4.7.9",
+    "salt-bd-scss": "^1.2.2"
   }
 }

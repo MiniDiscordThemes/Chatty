@@ -19,7 +19,7 @@
       "github": "mrrobboss"
     }
   ],
-  "version": "2.2.1",
+  "version": "2.2.2",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.LegacyChatty"
@@ -29,7 +29,6 @@
   "main": "scss/main.scss",
   "source": "https://github.com/MiniDiscordThemes/LegacyChatty",
   "image": [
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1153474965505577070/logo2.png",
-    "https://cdn.discordapp.com/attachments/1142305515439923260/1153474966025687090/chatty_preview.png"
+    "https://i.imgur.com/N7lYQvk.png"
   ]
 }
