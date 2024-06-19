@@ -1,4 +1,5 @@
-[screenshot]:       https://minidiscordthemes.github.io/LegacyChatty/preview/chatty_preview.avif
+[banner]:           https://minidiscordthemes.github.io/LegacyChatty/preview/logo2.png
+[screenshot]:       https://minidiscordthemes.github.io/LegacyChatty/preview/preview.png
 
 [css-color]:        https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [discord]:          https://discord.gg/uy8nKQVatp
@@ -30,9 +31,11 @@
 [![Replugged GitHub downloads][shield-asar-dl]][release-rp-gh]
 [![Total repository size][shield-repo-size]][github]
 
-***Legacy style of Chatty: a customizable sleek-looking Discord theme with rounded borders, trasparency and a custom background.***
+***Legacy style of Chatty: a customizable sleek-looking Discord theme with rounded borders, transparency and a custom background.***
 
-![Screenshot of Chatty applied to Discord](assets/chatty_preview.png)
+![Legacy Chatty banner][banner]
+
+![Screenshot of Chatty applied to Discord][screenshot]
 
 ## Installation
 
