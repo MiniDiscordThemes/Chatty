@@ -19,7 +19,7 @@
       "github": "mrrobboss"
     }
   ],
-  "version": "2.3.1",
+  "version": "2.3.2",
   "updater": {
     "type": "store",
     "id": "net.saltssaumure.LegacyChatty"
