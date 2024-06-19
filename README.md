@@ -92,14 +92,13 @@
 3. Edit the variable values.
 
 ## License
-[MIT License][license]
-- <span title="Too long; didn't read; not a lawyer">TL;DR;NAL</span>: Do whatever you want with this theme, just include the original license.
+[MIT license][license]
 
-### Includes
-[ce]: https://github.com/zerol1ght/chatty-edit
-[ce-author1]: https://github.com/mrrobboss
-[ce-author2]: https://github.com/zerol1ght
-- [Chatty Edit][ce] by [Alex][ce-author1] and [Light][ce-author2] - MIT
+## Credits
+### Sources
+[chattyedit]: https://github.com/zerol1ght/chatty-edit
+
+- [Chatty Edit][chattyedit] by [Alex](https://github.com/mrrobboss) and [Light](https://github.com/zerol1ght) - MIT license
 
 ## Questions or suggestions?
 - Post [an issue][issues] on GitHub.
